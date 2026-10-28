@@ -1,0 +1,33 @@
+# Chỉ commit phần đồ án (đồ án/, AGENTS.md, README.md) — bỏ qua LT, TH, plan cá nhân, repo tham khảo
+
+# Tài liệu lý thuyết / thực hành (LT, TH)
+LT/
+TH/
+
+# Quy chuẩn nội bộ (không public)
+AGENTS.md
+
+# Plan cá nhân & tool phụ trợ
+claude plan/
+.claude/
+.agents/
+skills-lock.json
+find_links.py
+generate_report_docx.py
+
+# Repo tham khảo (clone ngoài, không phải code của mình)
+tabler_official/
+
+# Dependencies / build output
+node_modules/
+dist/
+build/
+
+# Env / log / OS
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# Arduino build cache
+*.tmp

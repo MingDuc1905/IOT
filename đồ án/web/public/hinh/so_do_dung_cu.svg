@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="520" viewBox="0 0 680 520">
+<rect x="0" y="0" width="680" height="520" fill="#ffffff"/>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+<g font-family="Arial, Helvetica, sans-serif" fill="#000000">
+
+<rect x="190" y="40" width="300" height="56" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+<text x="340" y="60" text-anchor="middle" dominant-baseline="central" font-size="15" font-weight="600">Xi-lanh y tế 50ml</text>
+<text x="340" y="80" text-anchor="middle" dominant-baseline="central" font-size="12.5">Tạo áp suất thử nghiệm</text>
+
+<line x1="340" y1="98" x2="340" y2="132" stroke="#000000" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="190" y="136" width="300" height="56" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+<text x="340" y="156" text-anchor="middle" dominant-baseline="central" font-size="15" font-weight="600">Cảm biến MPS20N0040D</text>
+<text x="340" y="176" text-anchor="middle" dominant-baseline="central" font-size="12.5">Xuất điện áp ~50 mV, rất yếu</text>
+
+<line x1="340" y1="194" x2="340" y2="228" stroke="#000000" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="190" y="232" width="300" height="56" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+<text x="340" y="252" text-anchor="middle" dominant-baseline="central" font-size="15" font-weight="600">HX710B</text>
+<text x="340" y="272" text-anchor="middle" dominant-baseline="central" font-size="12.5">Khuếch đại, đo 24-bit</text>
+
+<line x1="340" y1="290" x2="340" y2="324" stroke="#000000" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="190" y="328" width="300" height="56" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+<text x="340" y="348" text-anchor="middle" dominant-baseline="central" font-size="15" font-weight="600">NodeMCU ESP8266</text>
+<text x="340" y="368" text-anchor="middle" dominant-baseline="central" font-size="12.5">Tính toán, phát Wi-Fi</text>
+
+<line x1="340" y1="386" x2="340" y2="420" stroke="#000000" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="190" y="424" width="300" height="56" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+<text x="340" y="444" text-anchor="middle" dominant-baseline="central" font-size="15" font-weight="600">Web Dashboard</text>
+<text x="340" y="464" text-anchor="middle" dominant-baseline="central" font-size="12.5">Đồ thị và vé sự cố</text>
+
+</g>
+</svg>
