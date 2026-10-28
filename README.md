@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ĐỒ ÁN MÔN HỌC: INTERNET VẠN VẬT (IoT)
 ## ĐỀ TÀI: HỆ THỐNG IOT GIÁM SÁT ÁP SUẤT ĐƯỜNG ỐNG CẤP NƯỚC VÀ CẢNH BÁO BẤT THƯỜNG
 
