@@ -1,13 +1,12 @@
-<<<<<<< HEAD
-# ĐỒ ÁN MÔN HỌC: INTERNET VẠN VẬT (IoT)
+
 ## ĐỀ TÀI: HỆ THỐNG IOT GIÁM SÁT ÁP SUẤT ĐƯỜNG ỐNG CẤP NƯỚC VÀ CẢNH BÁO BẤT THƯỜNG
 
 ---
 
-## 🎯 Giới Thiệu Đề Tài
+##  Giới Thiệu Đề Tài
 Hệ thống IoT giám sát áp suất đường ống cấp nước theo thời gian thực nhằm phát hiện sớm các hiện tượng bất thường như vỡ đường ống, rò rỉ nước, quá áp hoặc mất áp lực nguồn cấp trong các tòa nhà, nhà máy và khu dân cư.
 
-### 🌟 Các Tính Năng Nổi Bật:
+###  Các Tính Năng Nổi Bật:
 1. **Giám sát thời gian thực:** Hiển thị giá trị áp suất tức thời và vẽ biểu đồ biến thiên liên tục theo thời gian.
 2. **Cảnh báo bất thường đa cấp độ:**
    - Cảnh báo áp suất cao (High Pressure) – nguy cơ bục vỡ do búa nước.
@@ -19,7 +18,7 @@ Hệ thống IoT giám sát áp suất đường ống cấp nước theo thời
 
 ---
 
-## 🛠️ Danh Mục Linh Kiện Thực Tế Đã Trang Bị (BOM Thực Nghiệm)
+## Danh Mục Linh Kiện Thực Tế Đã Trang Bị (BOM Thực Nghiệm)
 - **Bộ điều khiển:** Kit NodeMCU Lua Wi-Fi V3 ESP8266 CH340 cổng USB Type-C.
 - **Cảm biến áp suất:** MPS20N0040D-D dạng chip DIP 6 chân (Dải đo áp suất khí/chất lỏng: 0 ~ 40 kPa, tương đương 0 ~ 0.4 Bar / 0.4 atm). Cầu trở Wheatstone ngõ ra vi sai mili-vôn.
 - **Module giao tiếp/khuếch đại ADC (bắt buộc):** Module ADC 24-bit chuyên dụng HX710B (hàn sẵn cảm biến MPS20N0040D-S) với Gain cố định 128, giao tiếp số qua chân DOUT (D2) và SCK (D1).
@@ -30,7 +29,7 @@ Hệ thống IoT giám sát áp suất đường ống cấp nước theo thời
 
 ---
 
-## 📁 Cấu Trúc Thư Mục
+##  Cấu Trúc Thư Mục
 ```text
 d:\IOT\
 ├── đồ án/
@@ -46,7 +45,7 @@ d:\IOT\
 
 ---
 
-## 🚀 Hướng Dẫn Vận Hành & Thử Nghiệm Mô Hình
+## Hướng Dẫn Vận Hành & Thử Nghiệm Mô Hình
 1. **Nạp Firmware:** Mở mã nguồn trong `đồ án/firmware/` bằng Arduino IDE, cấu hình Wi-Fi và nạp vào ESP8266/ESP32.
 2. **Khởi động Web Dashboard:** Mở file `đồ án/web/index.html` trên trình duyệt để theo dõi áp suất và danh sách sự cố.
 3. **Kịch bản thực nghiệm:**
